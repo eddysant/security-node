@@ -36,3 +36,6 @@ Secure node.js/express template
 nodejs is basically just packages thrown together, there are tools used to scan your packages and make sure they are up to date and do not contain known vulnerabilities.
 * nsp [https://github.com/nodesecurity/nsp​]
 * retire.js [http://retirejs.github.io/retire.js/]  
+
+###More
+* Disable TLS v1 [secureOptions: require('constants').SSL_OP_NO_TLSv1]
